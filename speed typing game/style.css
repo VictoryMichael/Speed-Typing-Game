@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Arimo:ital,wght@1,700&family=Finlandica:ital,wght@0,600;1,500;1,700&family=Lobster&family=Open+Sans:ital,wght@1,600;1,800&family=Oswald:wght@500;600&family=PT+Sans:ital@0;1&family=Permanent+Marker&display=swap');
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+body{
+background-image: url(svg.png) ;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Arimo', sans-serif;
+
+}
+
+
+.container{
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+h1{
+color: rgb(255, 255, 255);
+margin-top: 0.3rem;
+}
+
+video{
+border-radius: 50%;
+margin: 2rem;
+}
+
+h3{
+font-size: 2rem;
+margin-top: -2rem;
+font-weight: 400;
+}
+
+.test-word{
+margin-top: 1.5rem;
+color: rgb(17, 41, 219);
+font-weight: 900;
+font-size: 26px;
+}
+
+input{
+border: none;
+background: rgb(194, 184, 184);
+padding: 0.5rem 3rem;
+margin-top: 1rem;
+color: black;
+font-size: 18px;
+outline: none;
+border-radius: 8px;
+}
+
+.correct{
+    color: blue;
+    margin: 0.5rem;
+}
+
+.time-container{
+display: flex;
+justify-content: center;
+gap: 5rem;
+margin: 1rem;
+}
+
+.instruction{
+background: rgba(155, 216, 248, 0.924);
+width: 40%;
+font-size: 18px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+height: 25%;
+position: absolute;
+margin-top: 2rem;
+left: 26rem;
+padding-top: 1.4rem;
+-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+.instruction span{
+color: red;
+font-size: 15px;
+font-weight: 900;
+}
+
+
+.time-con{
+   width: 100px; 
+   height: 100px;
+   border-radius: 50%;
+background: rgb(255, 255, 255);
+display: flex;
+flex-direction: column;
+font-size: 15px;
+font-weight: 900;
+padding: 1rem;
+border: 1px solid blue;
+
+}
+
+.time-con span{
+font-size: 40px;
+
+}
+
+.score-con{
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+ background: rgb(255, 255, 255);
+ display: flex;
+ flex-direction: column;
+ font-size: 15px;
+ font-weight: 900;
+ padding: 1rem;
+ border: 1px solid blue;
+}
+
+.score-con span{
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+

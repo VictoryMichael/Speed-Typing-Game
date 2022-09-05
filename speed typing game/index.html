@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Speed typing TEST</title>
+</head>
+<body>
+ <div class="container"> 
+    <h1>TYPING SPEED TEST</h1>
+
+    <video width="320" height="240"  loop="true" autoplay="autoplay"  muted>
+        <source src="animated_medium20220228-30208-1cama1w.mp4" type="video/mp4"> 
+      Your browser does not support the video tag.
+      </video>
+
+      <h3> 
+        Test your typing skills
+      </h3>
+         <div class="test-word" id="current-word">
+            SOCIALIZATION
+         </div>
+
+         <input type="text" id="world-input" autofocus placeholder="Start typing...">
+
+         <p class="correct" id="message"></p>
+
+         <div class="time-container">
+           <div class="time-con"> <span id="time">30</span>Time</div>
+            <div class="score-con"> <span id="score">0</span>Score </div>
+         </div>
+
+         <div class="instruction">
+            <span>Instruction!!</span>
+             <p>Type each world in the given amount of seconds to score. <br> To play again, just type the current world, Your score  would reset</p>
+         </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
